@@ -29,7 +29,6 @@ namespace TestNinja.UnitTests
             var result = controller.GetCustomer(1);
 
             Assert.That(result, !Is.TypeOf<NotFound>());
-            
         }
     }
 }
